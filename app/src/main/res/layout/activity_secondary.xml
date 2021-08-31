@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:background="@color/light_gray"
+        android:orientation="horizontal">
+
+        <!--Table 1-->
+        <LinearLayout
+            android:id="@+id/linearTable1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 1"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR1"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <!--Table 2-->
+        <LinearLayout
+            android:id="@+id/linearTable2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 2"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR2"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+        </LinearLayout>
+
+        <!--Table 3-->
+        <LinearLayout
+            android:id="@+id/linearTable3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 3"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR3"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <!--Table 4-->
+        <LinearLayout
+            android:id="@+id/linearTable4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="132dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 4"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR4"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <!--Table 5-->
+        <LinearLayout
+            android:id="@+id/linearTable5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="132dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 5"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR5"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <!--Table 6-->
+        <LinearLayout
+            android:id="@+id/linearTable6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="132dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 6"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR6"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <!--Table 7-->
+        <LinearLayout
+            android:id="@+id/linearTable7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="242dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 7"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR7"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <!--Table 8-->
+        <LinearLayout
+            android:id="@+id/linearTable8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="242dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 8"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR8"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <!--Table 9-->
+        <LinearLayout
+            android:id="@+id/linearTable9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="242dp"
+            android:background="@color/purple_500"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:text="Table 9"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:id="@+id/btnR9"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="20dp"
+                android:backgroundTint="@color/light_gray"
+                android:text="Reservar"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+            />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtTableNumber"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Table number:"
+            android:inputType="number"
+            android:digits="123456789"
+            />
+
+        <Button
+            android:id="@+id/btnFreeTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="200dp"
+            android:text="Free Table"
+            />
+
+        <Button
+            android:id="@+id/btnReserveAllTables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:text="Reserve all tables"
+            />
+
+        <Button
+            android:id="@+id/btnConfiguration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:backgroundTint="@color/gray"
+            android:text="Change reserverd color"
+            />
+
+        <Button
+            android:id="@+id/btnChangeReservedColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:backgroundTint="@color/gray"
+            android:text="Change reserverd color"
+            />
+
+        <Button
+            android:id="@+id/btnChangeNotReservedColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:backgroundTint="@color/gray"
+            android:text="Change not reserverd color"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
